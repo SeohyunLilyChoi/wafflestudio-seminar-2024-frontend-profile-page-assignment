@@ -36,11 +36,14 @@ h1 {
 }
 
 #profile-pic {
-  height: 200px;
+  width: 90%;
+  height: 90%;
+  vertical-align: middle;
   border-radius: 30%;
 }
 
 .info {
+  width: 40%;
   display: inline-block;
   vertical-align: middle;
   margin: 20px;
