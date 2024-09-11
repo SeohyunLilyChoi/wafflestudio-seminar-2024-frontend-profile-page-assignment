@@ -18,7 +18,7 @@ function App() {
           </div>
 
           <div className="info-details">
-            <p id="major">언어학과</p>
+            <p id="major">언어학과 21학번</p>
             <p id="mbti">INFP</p>
             <p id="email">lily_choi7@snu.ac.kr</p>
           </div>
