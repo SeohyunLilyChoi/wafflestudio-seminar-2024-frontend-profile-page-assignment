@@ -5,17 +5,34 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
+body {
+  background-color: #212426;
+}
+
+h1 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+#info-box {
+  background-color: #ffffff;
+  border-radius: 2em;
+  width: 80%;
+  margin: auto;
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+#info-box:hover {
+  filter: drop-shadow(0 0 10px #ffffffc0);
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+.info {
+  display: inline-block;
+}
+
+#profile-pic {
+  height: 150px;
+  border-radius: 30%;
 }
 
 @keyframes logo-spin {
@@ -33,10 +50,30 @@
   }
 }
 
-.card {
-  padding: 2em;
+.info {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 20px;
 }
 
-.read-the-docs {
-  color: #888;
+.info-name {
+  text-align: left;
+  margin: 10px;
+}
+
+#name {
+  display: inline;
+  font-size: 30px;
+}
+
+#name_eng {
+  display: inline;
+  margin-left: 10px;
+  font-size: 15px;
+  color: #606060;
+}
+
+.info-details {
+  text-align: left;
+  margin-left: 10px;
 }
